@@ -1,0 +1,126 @@
+body{
+    margin:0px;
+    font-family: 'Edu SA Beginner', cursive;
+font-family: 'Lugrasimo', cursive;
+}
+
+.flex{
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left:12px;
+    margin-right: 12px;;
+}
+
+nav{  
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding-left:23px;
+    padding-right:23px;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+   
+    
+}
+
+
+.search{
+    width:300px;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    padding:5px;
+    background-color: hsl(0, 0%, 92%);
+    border-color: aliceblue;
+   
+}
+
+nav img{
+    width:100px;
+    height:33px;
+}
+
+.body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/*.section1{
+    
+    justify-content: center;
+    height:122vh;
+
+
+}*/
+
+
+
+.s1 img{
+    width:100vw;
+}
+
+#para{
+    display:flex;
+    height:50px;
+    background-color: hsl(0, 3%, 90%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header{
+    position:sticky;
+    top:0px;
+    background-color: white;
+}
+
+.s2 video{
+    width:280px;
+    border-radius:33px;
+    overflow: auto;
+}
+
+.s2{
+    justify-content: space-around;
+    
+}
+
+.my2{
+    margin-left:15px;
+}
+.s3{
+    justify-content: space-around;
+}
+.s3 img{
+    width:320px;
+    border-radius: 33px;
+
+}
+
+.s4{
+    justify-content: space-around;
+    overflow: scroll;
+    
+}
+
+footer{
+    width:100%;
+    background-color: hsl(0, 0%, 80%);
+    height:300px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+  
+   
+}
+
